@@ -1,0 +1,1069 @@
+repo_name: tooloca/api
+report_id: 21f0c636bb3a45edd15c37f0d868ff09
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-05T07:34:02+00:00'
+requested_by: FindingAnand
+provider: github
+branch: master
+detected_tools_count: 74
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/tooloca/api
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  version: 4.0.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2020-10-22 16:20:36.000000000 Z
+- name: Nunjucks
+  description: A templating language for JavaScript
+  website_url: https://mozilla.github.io/nunjucks/
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1637/Microsoft.VisualStudio.Services.Icons.Default
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/tooloca/api
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: NestJS
+  description: A progressive Node.js framework for building efficient and scalable
+    server-side applications by @kammysliwiec.
+  website_url: nestjs.com
+  version: 7.6.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/8747/4zsOyxko_400x400.jpg
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2019-04-21 08:27:17.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 14.15.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:29:43.000000000 Z
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  version: 6.6.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2019-04-21 08:27:17.000000000 Z
+- name: Prisma
+  description: Modern Database Access for TypeScript &amp; Node.js
+  website_url: https://www.prisma.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/tooloca/api
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2020-10-31 10:51:49.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2019-04-21 08:27:17.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tooloca/api
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/.github/workflows/automerge.yml
+  detection_source: ".github/workflows/automerge.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-15 07:14:53.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2019-04-21 08:27:17.000000000 Z
+- name: Logstash
+  description: Collect, Parse, &amp; Enrich Data
+  website_url: http://logstash.net/
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2019-04-21 08:27:17.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: Puppeteer
+  description: Headless Chrome Node API
+  website_url: https://github.com/GoogleChrome/puppeteer
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7553/puppeteer.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: Sentry
+  description: See performance issues, fix errors faster, and optimize code health.
+  website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-01-20 05:26:50.000000000 Z
+- name: SuperTest
+  description: A library for testing node.js HTTP servers
+  website_url: https://www.npmjs.com/package/supertest
+  version: 6.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2020-11-07 09:21:21.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2019-04-21 08:27:17.000000000 Z
+- name: Cloudinary
+  description: An end-to-end image &amp; video management solution for your web and
+    mobile applications
+  website_url: http://cloudinary.com/
+  open_source: false
+  hosted_saas: true
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/304/default_d0fb82038ec18f67ca33bf6ce0df0bffb427e94f.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2020-11-13 12:41:26.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: Twilio
+  description: Bring voice and messaging to your web and mobile applications.
+  website_url: http://www.twilio.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Voice and SMS
+  image_url: https://img.stackshare.io/service/130/VrwpNfjh_400x400.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: Passport
+  description: Simple, unobtrusive authentication for Node.js
+  website_url: http://passportjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://ucarecdn.com/8f3cac0e-b146-4f0f-878c-680a6671d804/
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-18 08:16:18.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: normalize-email
+  description: Normalize emails for uniqueness validation
+  website_url: https://github.com/johno/normalize-email
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Email Validator
+  image_url: https://img.stackshare.io/service/21959/default_bc4cf0cd4a938537edc468490762ec444e43a245.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: qrcode
+  website_url: http://goqr.me/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8580/no-img-open-source.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2020-10-27 15:23:20.000000000 Z
+- name: class-validator
+  description: Class-based validation with Typescript / ES6 / ES5 using decorators
+    or validation schemas
+  package_url: https://www.npmjs.com/class-validator
+  version: 0.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17583/default_661ab15cb9ea1663765f3e16ee70a1d2d50118d1.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2020-10-22 14:01:49.000000000 Z
+  vulnerabilities:
+  - name: SQL Injection and Cross-site Scripting in class-validator
+    cve_id: CVE-2019-18413
+    cve_url: https://github.com/advisories/GHSA-fj58-h2fr-3pp2
+    detected_date: Oct 13
+    severity: critical
+    first_patched: 0.14.0
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 8.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-18 08:16:18.000000000 Z
+  vulnerabilities:
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: minimatch
+  description: A glob matcher in javascript
+  package_url: https://www.npmjs.com/minimatch
+  version: 3.0.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-18 08:16:18.000000000 Z
+  vulnerabilities:
+  - name: minimatch ReDoS vulnerability
+    cve_id: CVE-2022-3517
+    cve_url: https://github.com/advisories/GHSA-f8q6-p94x-37v3
+    detected_date: Oct 21
+    severity: high
+    first_patched: 3.0.5
+- name: ua-parser-js
+  description: Lightweight JavaScript-based user-agent string parser
+  package_url: https://www.npmjs.com/ua-parser-js
+  version: 0.7.24
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17510/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+  vulnerabilities:
+  - name: ReDoS Vulnerability in ua-parser-js version
+    cve_id: CVE-2022-25927
+    cve_url: https://github.com/advisories/GHSA-fhg7-m89q-25r3
+    detected_date: Jan 25
+    severity: high
+    first_patched: 0.7.33
+- name: "@nestjs/core"
+  description: Nest - modern, fast, powerful node.js web framework
+  package_url: https://www.npmjs.com/@nestjs/core
+  version: 7.6.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17223/default_48f040bdc5f6c639c70bf350f8b8158ede27286c.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+  vulnerabilities:
+  - name: "@nestjs/core vulnerable to Information Exposure via StreamableFile pipe"
+    cve_id: CVE-2023-26108
+    cve_url: https://github.com/advisories/GHSA-4jpv-8r57-pv7j
+    detected_date: Mar 8
+    severity: moderate
+    first_patched: 9.0.5
+- name: got
+  description: Human-friendly and powerful HTTP request library for Node.js
+  package_url: https://www.npmjs.com/got
+  version: 11.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2019-04-21 08:27:17.000000000 Z
+  vulnerabilities:
+  - name: Got allows a redirect to a UNIX socket
+    cve_id: CVE-2022-33987
+    cve_url: https://github.com/advisories/GHSA-pfrx-2q88-qq97
+    detected_date: Jun 22
+    severity: moderate
+    first_patched: 11.8.5
+- name: "@nestjs/common"
+  description: Nest - modern
+  package_url: https://www.npmjs.com/@nestjs/common
+  version: 7.6.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16950/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: "@nestjs/testing"
+  description: Nest - modern
+  package_url: https://www.npmjs.com/@nestjs/testing
+  version: 7.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17855/default_dc034f75f103514d23b4d1a7fe578415d63216ee.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-18 08:16:18.000000000 Z
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: "@prisma/client"
+  description: Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript
+    ORM for Node.js that's tailored to your data
+  package_url: https://www.npmjs.com/@prisma/client
+  version: 2.14.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: "@sentry/node"
+  description: Offical Sentry SDK for Node.js
+  package_url: https://www.npmjs.com/@sentry/node
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18428/default_9499465ee49aaffadf126149b962e9838bc4a993.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-01-20 05:26:50.000000000 Z
+- name: "@types/cheerio"
+  description: TypeScript definitions for Cheerio
+  package_url: https://www.npmjs.com/@types/cheerio
+  version: 0.22.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17279/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: "@types/fs-extra"
+  description: TypeScript definitions for fs-extra
+  package_url: https://www.npmjs.com/@types/fs-extra
+  version: 9.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 26.0.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: "@types/jsonwebtoken"
+  description: TypeScript definitions for jsonwebtoken
+  package_url: https://www.npmjs.com/@types/jsonwebtoken
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16959/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: "@types/minimatch"
+  description: TypeScript definitions for Minimatch
+  package_url: https://www.npmjs.com/@types/minimatch
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17630/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 14.14.32
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: "@types/puppeteer"
+  description: TypeScript definitions for puppeteer
+  package_url: https://www.npmjs.com/@types/puppeteer
+  version: 5.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16766/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: "@types/supertest"
+  description: TypeScript definitions for SuperTest
+  package_url: https://www.npmjs.com/@types/supertest
+  version: 2.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16805/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 4.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 4.15.2
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: aws-sdk
+  description: AWS SDK for JavaScript
+  package_url: https://www.npmjs.com/aws-sdk
+  version: 2.850.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: class-transformer
+  description: Proper decorator-based transformation / serialization / deserialization
+    of plain javascript objects to class constructors
+  package_url: https://www.npmjs.com/class-transformer
+  version: 0.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17651/default_eb9caf7d7fb4d231f7e3b04a8c1fbef6fcd9fd73.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: deep-equal
+  description: Node's assert.deepEqual algorithm
+  package_url: https://www.npmjs.com/deep-equal
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16405/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: dotenv-expand
+  description: Expand environment variables using dotenv
+  package_url: https://www.npmjs.com/dotenv-expand
+  version: 5.1.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16514/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.22.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 00:42:54.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: helmet
+  description: Help secure Express/Connect apps with various HTTP headers
+  package_url: https://www.npmjs.com/helmet
+  version: 4.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: p-queue
+  description: Promise queue with concurrency control
+  package_url: https://www.npmjs.com/p-queue
+  version: 6.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18257/default_315a767553036d5263c95420817fe68cd3885651.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2020-10-22 15:48:15.000000000 Z
+- name: qrcode
+  description: QRCode / 2d Barcode api with both server side and client side support
+    using canvas
+  package_url: https://www.npmjs.com/qrcode
+  version: 1.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17638/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2020-10-27 15:23:20.000000000 Z
+- name: randomcolor
+  description: A tiny script for generating attractive random colors
+  package_url: https://www.npmjs.com/randomcolor
+  version: 0.6.2
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18595/default_cdfbfc8ddc0cad865ade3e84444b993ccd8e67de.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: reflect-metadata
+  description: Polyfill for Metadata Reflection API
+  package_url: https://www.npmjs.com/reflect-metadata
+  version: 0.1.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16019/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-18 08:16:18.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2020-10-22 09:40:17.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 26.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-01 12:05:11.000000000 Z
+- name: ts-loader
+  description: TypeScript loader for webpack
+  package_url: https://www.npmjs.com/ts-loader
+  version: 8.0.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 9.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-01-20 05:26:50.000000000 Z
+- name: tsconfig-paths
+  description: Load node modules according to tsconfig paths
+  package_url: https://www.npmjs.com/tsconfig-paths
+  version: 3.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16810/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-18 08:16:18.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/tooloca/api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Anand Chowdhary
+  last_updated_on: 2021-01-09 12:30:03.000000000 Z
